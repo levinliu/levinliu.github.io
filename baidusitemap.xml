@@ -4,14 +4,14 @@
 
     
   <url>
-    <loc>http://levin.tech/2017/01/07/%E4%BB%80%E4%B9%88%E6%98%AF%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <loc>http://levin.tech/2015/08/17/hello-world/</loc>
+    <lastmod>2018-04-01T16:43:35.000Z</lastmod>
     <data>
         <display>
-        <title>什么是微服务</title>
-        <pubTime>2017-01-07T15:23:53.000Z</pubTime>
+        <title>Hello World</title>
+        <pubTime>2015-08-17T15:13:16.000Z</pubTime>
         
-        <tag>MicroService</tag>
+        <tag>Hexo, 博客</tag>
          
          
            
@@ -21,48 +21,14 @@
 
     
   <url>
-    <loc>http://levin.tech/2017/03/18/%E4%B8%87%E7%A0%81%E5%A0%82%E6%8A%80%E6%9C%AF%E7%BD%91/</loc>
+    <loc>http://levin.tech/2014/09/12/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
         <display>
-        <title>万码堂技术网</title>
-        <pubTime>2017-03-18T15:03:23.000Z</pubTime>
+        <title>分布式系统设计</title>
+        <pubTime>2014-09-12T15:11:21.000Z</pubTime>
         
-        <tag>code10000</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://levin.tech/2012/05/17/Atlas%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>Atlas交易平台</title>
-        <pubTime>2012-05-17T15:01:59.000Z</pubTime>
-        
-        <tag>交易平台，构建</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://levin.tech/2016/09/12/2%E5%A4%A9hackathon%E7%BC%96%E7%A8%8B%E6%AF%94%E8%B5%9B/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>2天hackathon编程比赛</title>
-        <pubTime>2016-09-12T15:07:07.000Z</pubTime>
-        
-        <tag>hackathon, 编程比赛</tag>
+        <tag>distributed system,</tag>
          
          
            
@@ -87,32 +53,13 @@
 
     
   <url>
-    <loc>http://levin.tech/2017/08/02/Architect-Thinking-Training/</loc>
+    <loc>http://levin.tech/2017/05/19/Continuous-Updating/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
         <display>
-        <title>Architecture Thinking Training</title>
-        <pubTime>2017-08-02T15:00:59.000Z</pubTime>
+        <title>Continuous Updating</title>
+        <pubTime>2017-05-18T16:11:27.000Z</pubTime>
         
-        <tag>Architect, training</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://levin.tech/2017/08/17/DevOps%E5%B7%A5%E5%85%B7%E6%94%B6%E9%9B%86/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>DevOps工具收集</title>
-        <pubTime>2017-08-17T15:12:39.000Z</pubTime>
-        
-        <tag>DevOps, 工具</tag>
-         
          
            
         </display>
@@ -138,13 +85,15 @@
 
     
   <url>
-    <loc>http://levin.tech/2017/05/19/Continuous-Updating/</loc>
+    <loc>http://levin.tech/2017/08/17/DevOps%E5%B7%A5%E5%85%B7%E6%94%B6%E9%9B%86/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
         <display>
-        <title>Continuous Updating</title>
-        <pubTime>2017-05-18T16:11:27.000Z</pubTime>
+        <title>DevOps工具收集</title>
+        <pubTime>2017-08-17T15:12:39.000Z</pubTime>
         
+        <tag>DevOps, 工具</tag>
+         
          
            
         </display>
@@ -221,14 +170,14 @@
 
     
   <url>
-    <loc>http://levin.tech/2012/11/05/TDD%E6%8F%90%E9%AB%98%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</loc>
+    <loc>http://levin.tech/2017/07/10/Scala%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
         <display>
-        <title>TDD提高代码质量</title>
-        <pubTime>2012-11-05T15:15:34.000Z</pubTime>
+        <title>Scala学习系列</title>
+        <pubTime>2017-07-10T15:13:36.000Z</pubTime>
         
-        <tag>TDD</tag>
+        <tag>Scala</tag>
          
          
            
@@ -238,14 +187,31 @@
 
     
   <url>
-    <loc>http://levin.tech/2017/07/10/Scala%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97/</loc>
+    <loc>http://levin.tech/2016/09/12/2%E5%A4%A9hackathon%E7%BC%96%E7%A8%8B%E6%AF%94%E8%B5%9B/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
         <display>
-        <title>Scala学习系列</title>
-        <pubTime>2017-07-10T15:13:36.000Z</pubTime>
+        <title>2天hackathon编程比赛</title>
+        <pubTime>2016-09-12T15:07:07.000Z</pubTime>
         
-        <tag>Scala</tag>
+        <tag>hackathon, 编程比赛</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://levin.tech/2012/11/05/TDD%E6%8F%90%E9%AB%98%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>TDD提高代码质量</title>
+        <pubTime>2012-11-05T15:15:34.000Z</pubTime>
+        
+        <tag>TDD</tag>
          
          
            
@@ -289,21 +255,6 @@
 
     
   <url>
-    <loc>http://levin.tech/2014/05/30/java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>java并发编程总结</title>
-        <pubTime>2014-05-29T23:18:17.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://levin.tech/2014/07/02/ios-swift%E6%B2%99%E9%BE%99/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
@@ -313,6 +264,21 @@
         
         <tag>ios</tag>
          
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://levin.tech/2014/05/30/java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>java并发编程总结</title>
+        <pubTime>2014-05-29T23:18:17.000Z</pubTime>
+        
          
            
         </display>
@@ -355,6 +321,23 @@
 
     
   <url>
+    <loc>http://levin.tech/2016/05/17/spring-boot%E5%88%9D%E4%BD%93%E9%AA%8C/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>spring-boot初体验</title>
+        <pubTime>2016-05-17T15:12:22.000Z</pubTime>
+        
+        <tag>spring-boot</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://levin.tech/2017/08/17/presentation%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%8A%80%E8%83%BD%E5%BE%88%E9%87%8D%E8%A6%81/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
@@ -372,15 +355,13 @@
 
     
   <url>
-    <loc>http://levin.tech/2016/05/17/spring-boot%E5%88%9D%E4%BD%93%E9%AA%8C/</loc>
+    <loc>http://levin.tech/2017/05/28/you-are-expert-you-should-know-it/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
         <display>
-        <title>spring-boot初体验</title>
-        <pubTime>2016-05-17T15:12:22.000Z</pubTime>
+        <title>you are expert, you should know it</title>
+        <pubTime>2017-05-27T23:24:16.000Z</pubTime>
         
-        <tag>spring-boot</tag>
-         
          
            
         </display>
@@ -406,21 +387,6 @@
 
     
   <url>
-    <loc>http://levin.tech/2017/05/28/you-are-expert-you-should-know-it/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>you are expert, you should know it</title>
-        <pubTime>2017-05-27T23:24:16.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://levin.tech/2017/08/17/%E4%BB%80%E4%B9%88%E6%98%AF%E5%9E%83%E5%9C%BE%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
@@ -436,14 +402,31 @@
 
     
   <url>
-    <loc>http://levin.tech/2013/06/17/%E9%87%91%E8%9E%8D%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91/</loc>
+    <loc>http://levin.tech/2017/03/18/%E4%B8%87%E7%A0%81%E5%A0%82%E6%8A%80%E6%9C%AF%E7%BD%91/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
         <display>
-        <title>金融交易平台二次开发</title>
-        <pubTime>2013-06-17T14:59:54.000Z</pubTime>
+        <title>万码堂技术网</title>
+        <pubTime>2017-03-18T15:03:23.000Z</pubTime>
         
-        <tag>trading platform</tag>
+        <tag>code10000</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://levin.tech/2017/01/07/%E4%BB%80%E4%B9%88%E6%98%AF%E5%BE%AE%E6%9C%8D%E5%8A%A1/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>什么是微服务</title>
+        <pubTime>2017-01-07T15:23:53.000Z</pubTime>
+        
+        <tag>MicroService</tag>
          
          
            
@@ -461,23 +444,6 @@
         <pubTime>2015-01-17T15:20:04.000Z</pubTime>
         
         <tag>refactor</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://levin.tech/2015/07/06/%E8%87%AA%E7%A0%94%E8%82%A1%E7%A5%A8%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>自研股票数据收集分析系统</title>
-        <pubTime>2015-07-06T15:03:05.000Z</pubTime>
-        
-        <tag>stock</tag>
          
          
            
@@ -519,14 +485,31 @@
 
     
   <url>
-    <loc>http://levin.tech/2014/09/12/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</loc>
+    <loc>http://levin.tech/2012/05/17/Atlas%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
         <display>
-        <title>分布式系统设计</title>
-        <pubTime>2014-09-12T15:11:21.000Z</pubTime>
+        <title>Atlas交易平台</title>
+        <pubTime>2012-05-17T15:01:59.000Z</pubTime>
         
-        <tag>distributed system,</tag>
+        <tag>交易平台，构建</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://levin.tech/2017/03/16/%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>分支管理</title>
+        <pubTime>2017-03-16T15:16:48.000Z</pubTime>
+        
+        <tag>branching</tag>
          
          
            
@@ -553,6 +536,23 @@
 
     
   <url>
+    <loc>http://levin.tech/2017/08/02/Architect-Thinking-Training/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>Architecture Thinking Training</title>
+        <pubTime>2017-08-02T15:00:59.000Z</pubTime>
+        
+        <tag>Architect, training</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://levin.tech/2016/10/15/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E5%AE%9E%E8%B7%B5/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
@@ -561,38 +561,6 @@
         <pubTime>2016-10-14T23:03:01.000Z</pubTime>
         
         <tag>architecture</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://levin.tech/2016/05/15/%E5%8F%82%E5%8A%A0%E4%B8%80%E6%AC%A1VR%E8%AE%B2%E5%BA%A7/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>参加一次VR讲座</title>
-        <pubTime>2016-05-14T23:15:09.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://levin.tech/2017/03/16/%E5%88%86%E6%94%AF%E7%AE%A1%E7%90%86/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>分支管理</title>
-        <pubTime>2017-03-16T15:16:48.000Z</pubTime>
-        
-        <tag>branching</tag>
          
          
            
@@ -619,6 +587,21 @@
 
     
   <url>
+    <loc>http://levin.tech/2016/05/15/%E5%8F%82%E5%8A%A0%E4%B8%80%E6%AC%A1VR%E8%AE%B2%E5%BA%A7/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>参加一次VR讲座</title>
+        <pubTime>2016-05-14T23:15:09.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://levin.tech/2014/06/28/%E5%8F%82%E5%8A%A0%E7%8F%A0%E4%B8%89%E8%A7%92%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%E7%9A%84%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
@@ -636,14 +619,14 @@
 
     
   <url>
-    <loc>http://levin.tech/2017/08/18/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E7%86%9F%E7%BB%83%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6/</loc>
+    <loc>http://levin.tech/2017/08/18/%E5%A6%82%E4%BD%95%E6%8B%93%E5%AE%BD%E6%8A%80%E6%9C%AF%E5%B9%BF%E5%BA%A6/</loc>
     <lastmod>2018-04-01T16:41:54.000Z</lastmod>
     <data>
         <display>
-        <title>如何快速熟练一个框架</title>
-        <pubTime>2017-08-17T16:34:08.000Z</pubTime>
+        <title>如何拓宽技术广度</title>
+        <pubTime>2017-08-17T16:35:13.000Z</pubTime>
         
-        <tag>HowTo, 快速学习</tag>
+        <tag>快速学习</tag>
          
          
            
@@ -661,6 +644,23 @@
         <pubTime>2015-06-17T23:06:00.000Z</pubTime>
         
         <tag>maven, gradle</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://levin.tech/2017/08/18/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E7%86%9F%E7%BB%83%E4%B8%80%E4%B8%AA%E6%A1%86%E6%9E%B6/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>如何快速熟练一个框架</title>
+        <pubTime>2017-08-17T16:34:08.000Z</pubTime>
+        
+        <tag>HowTo, 快速学习</tag>
          
          
            
@@ -693,23 +693,6 @@
         <pubTime>2017-05-23T15:09:00.000Z</pubTime>
         
         <tag>presentation skill</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://levin.tech/2017/08/18/%E5%A6%82%E4%BD%95%E6%8B%93%E5%AE%BD%E6%8A%80%E6%9C%AF%E5%B9%BF%E5%BA%A6/</loc>
-    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
-    <data>
-        <display>
-        <title>如何拓宽技术广度</title>
-        <pubTime>2017-08-17T16:35:13.000Z</pubTime>
-        
-        <tag>快速学习</tag>
          
          
            
@@ -816,6 +799,40 @@
     </url>
 
     
+  <url>
+    <loc>http://levin.tech/2015/07/06/%E8%87%AA%E7%A0%94%E8%82%A1%E7%A5%A8%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>自研股票数据收集分析系统</title>
+        <pubTime>2015-07-06T15:03:05.000Z</pubTime>
+        
+        <tag>stock</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://levin.tech/2013/06/17/%E9%87%91%E8%9E%8D%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2018-04-01T16:41:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>金融交易平台二次开发</title>
+        <pubTime>2013-06-17T14:59:54.000Z</pubTime>
+        
+        <tag>trading platform</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://levin.tech/2018/01/22/%E5%88%9B%E5%BB%BA%E7%A7%81%E6%9C%89Git%E4%BB%93%E5%BA%93/</loc>
@@ -839,34 +856,4 @@
     
     
     
-    
-  <url>
-    <loc>http://levin.tech/2018/04/01/test/</loc>
-    <lastmod>2018-04-01T04:15:52.000Z</lastmod>
-    <data>
-        <display>
-        <title>test</title>
-        <pubTime>2018-04-01T04:15:30.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://levin.tech/2018/04/01/hello-world/</loc>
-    <lastmod>2018-04-01T04:11:49.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-04-01T04:11:49.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
