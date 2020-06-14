@@ -22,20 +22,21 @@
     
   
   
-  <title>归档: 2020/6 | Levin</title>
-  <meta name="description" content="终身学习">
-<meta name="keywords" content="levin,架构,微服务,SpringBoot,SpringCloud,DevOps,Jenkins,Docker,k8s,Hexo主题,后端开发,框架设计,backend,Angular,NodeJs,Java, 框架设计">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Levin">
-<meta property="og:url" content="http://levin.tech/archives/2020/06/index.html">
+  <title>记录使用SpringCache+InfiniSpan发生缓存脏数据以及解决思路 | Levin</title>
+  <meta name="description" content="最近为了增强一个微服务组件的性能，引入了缓存。 项目使用了InfiniSpan为统一的缓存层，由于当前组件">
+<meta name="keywords" content="Cache, SpringCache, InfiniSpan">
+<meta property="og:type" content="article">
+<meta property="og:title" content="记录使用SpringCache+InfiniSpan发生缓存脏数据以及解决思路">
+<meta property="og:url" content="http://levin.tech/2020/05/29/记录使用SpringCache-InfiniSpan发生缓存脏数据以及解决思路/index.html">
 <meta property="og:site_name" content="Levin">
-<meta property="og:description" content="终身学习">
+<meta property="og:description" content="最近为了增强一个微服务组件的性能，引入了缓存。 项目使用了InfiniSpan为统一的缓存层，由于当前组件">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2020-06-14T10:50:22.231Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Levin">
-<meta name="twitter:description" content="终身学习">
+<meta name="twitter:title" content="记录使用SpringCache+InfiniSpan发生缓存脏数据以及解决思路">
+<meta name="twitter:description" content="最近为了增强一个微服务组件的性能，引入了缓存。 项目使用了InfiniSpan为统一的缓存层，由于当前组件">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://levin.tech/archives/2020/06/index.html">
+  <link rel="canonical" href="http://levin.tech/2020/05/29/记录使用SpringCache-InfiniSpan发生缓存脏数据以及解决思路/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Levin" type="application/atom+xml">
   
@@ -316,48 +317,173 @@
   
   
 <main class="main" role="main">
-  	<article class="content article article-archives article-type-list" itemscope="">
-	    <header class="article-header">
-	      <h1 itemprop="title">归档: 2020/6</h1>
-	      <p class="text-muted">共 1 篇文章</p>
-	    </header>
-	    <div class="article-body">
-	      
+  <div class="content">
+  <article id="post-记录使用SpringCache-InfiniSpan发生缓存脏数据以及解决思路" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      
+        
   
+    <h1 class="article-title" itemprop="name">
+      记录使用SpringCache+InfiniSpan发生缓存脏数据以及解决思路
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2020/05/29/记录使用SpringCache-InfiniSpan发生缓存脏数据以及解决思路/" class="article-date">
+	  <time datetime="2020-05-29T10:45:25.000Z" itemprop="datePublished">2020-05-29</time>
+	</a>
+</span>
+        
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/Cache-SpringCache-InfiniSpan/">Cache, SpringCache, InfiniSpan</a>
+  </span>
+
+
+        
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2020/05/29/记录使用SpringCache-InfiniSpan发生缓存脏数据以及解决思路/#comments" class="article-comment-link">评论</a></span>
+        
+      </div>
+    </div>
+    <div class="article-entry markdown-body" itemprop="articleBody">
+      
+        <p>最近为了增强一个微服务组件的性能，引入了缓存。</p>
+<p>项目使用了InfiniSpan为统一的缓存层，由于当前组件</p>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://levin.tech/2020/05/29/记录使用SpringCache-InfiniSpan发生缓存脏数据以及解决思路/" title="记录使用SpringCache+InfiniSpan发生缓存脏数据以及解决思路" target="_blank" rel="external">http://levin.tech/2020/05/29/记录使用SpringCache-InfiniSpan发生缓存脏数据以及解决思路/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/levinliu" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/gh_levin19.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/levinliu" target="_blank"><span class="text-dark">Levin</span><small class="ml-1x">Trainer/Speaker/Leader</small></a></h3>
+        <div>微服务架构，大数据开发，DevOps技术专家，全栈开发</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+
+    </div>
+  </article>
   
     
+  <section id="comments">
+  	
+       
+    <div id="uyan_frame"></div>
+
     
-      
-      
-      <section class="panel panel-default b-no">
-        <div class="panel-heading" role="tab">
-          <h3 class="panel-title">
-            <a data-toggle="collapse" href="#collapse2020" aria-expanded="true">
-              <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
-              2020
-            </a>
-            <!-- <a href="/archives/2020" class="archive-year">2020</a> -->
-          </h3>
+  </section>
+
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2020/06/14/记录一次sbt-build出现诡异ClassDefFoundError/" title="记录一次SBT build noclassdeffounderror问题"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+    </li>
+    
+    
+    <li class="next">
+      <a href="/2019/09/19/学习大数据-持续更新/" title="学习大数据-持续更新"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
+  
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>赏</span></button>
+  <!-- <div class="wave-icon wave-icon-danger btn-donate" data-toggle="modal" data-target="#donateModal">
+    <div class="wave-circle"><span class="icon"><i class="icon icon-bill"></i></span></div>
+  </div> -->
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
+  
+<!-- Modal -->
+<div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content donate">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+        <div class="donate-box">
+          <div class="donate-head">
+            <p>感谢您的支持，我会继续努力的!</p>
+          </div>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade active in" id="alipay">
+              <div class="donate-payimg">
+                <img src="/images/donate/alipay.jpg" alt="扫码支持" title="扫一扫" />
+              </div>
+              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+              <p class="text-grey">打开支付宝扫一扫，即可进行扫码打赏哦</p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="wechatpay">
+              <div class="donate-payimg">
+                <img src="/images/donate/wechatwxc_zs.jpg" alt="扫码支持" title="扫一扫" />
+              </div>
+              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+              <p class="text-grey">打开微信扫一扫，即可进行扫码打赏哦</p>
+            </div>
+          </div>
+          <div class="donate-footer">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#alipay" id="alipay-tab" role="tab" data-toggle="tab" aria-controls="alipay" aria-expanded="true"><i class="icon icon-alipay"></i> 支付宝</a>
+              </li>
+              <li role="presentation" class="">
+                <a href="#wechatpay" role="tab" id="wechatpay-tab" data-toggle="tab" aria-controls="wechatpay" aria-expanded="false"><i class="icon icon-wepay"></i> 微信支付</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div id="collapse2020" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2020">
-        <div class="panel-body">
-          <div class="collection">
-    
-    
-<a href="/2020/06/14/记录一次sbt-build出现诡异ClassDefFoundError/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2020-06-14T10:23:11.000Z" itemprop="datePublished">2020-06-14</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> 记录一次SBT build noclassdeffounderror问题
-</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-  
-  
-    </div></div></div></section>
-  
 
-	    </div>
-  	</article>
-  	 	
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -412,6 +538,12 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
     
+    
+        
+    
+    <script defer type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=[object Object]"></script>
+
+
     
     
 
