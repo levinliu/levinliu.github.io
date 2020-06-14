@@ -23,18 +23,18 @@
   
   
   <title>记录一次SBT build noclassdeffounderror问题 | Levin</title>
-  <meta name="description" content="最近使用IntelliJ CE 2019.02版本倒入了一个scala项目。项目使用sbt构建，但是在使用SBT 构建项目的时候碰到了NoClassDefFoundError具体错误如下:java.lang.NoClassDefFoundError: sbt/ConsoleOut$ macbook最近没有更新过scala或者sbt，之前也是能够build好的。后来想想可能是build一些国外的项目">
+  <meta name="description" content="最近使用IntelliJ CE 2019.02版本倒入了一个scala项目。项目使用sbt构建，但是在使用SBT 构建项目的时候碰到了NoClassDefFoundError具体错误如下:java.lang.NoClassDefFoundError: sbt/ConsoleOut$ macbook最近没有更新过scala或者sbt，之前也是能够build好的,可能是有半年多没碰过sbt项目了。后来">
 <meta name="keywords" content="levin,架构,微服务,SpringBoot,SpringCloud,DevOps,Jenkins,Docker,k8s,Hexo主题,后端开发,框架设计,backend,Angular,NodeJs,Java, 框架设计">
 <meta property="og:type" content="website">
 <meta property="og:title" content="记录一次SBT build noclassdeffounderror问题">
 <meta property="og:url" content="http://levin.tech/记录一次SBT-build-noclassdeffounderror问题/index.html">
 <meta property="og:site_name" content="Levin">
-<meta property="og:description" content="最近使用IntelliJ CE 2019.02版本倒入了一个scala项目。项目使用sbt构建，但是在使用SBT 构建项目的时候碰到了NoClassDefFoundError具体错误如下:java.lang.NoClassDefFoundError: sbt/ConsoleOut$ macbook最近没有更新过scala或者sbt，之前也是能够build好的。后来想想可能是build一些国外的项目">
+<meta property="og:description" content="最近使用IntelliJ CE 2019.02版本倒入了一个scala项目。项目使用sbt构建，但是在使用SBT 构建项目的时候碰到了NoClassDefFoundError具体错误如下:java.lang.NoClassDefFoundError: sbt/ConsoleOut$ macbook最近没有更新过scala或者sbt，之前也是能够build好的,可能是有半年多没碰过sbt项目了。后来">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-06-14T10:32:37.007Z">
+<meta property="og:updated_time" content="2020-06-14T10:34:00.087Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="记录一次SBT build noclassdeffounderror问题">
-<meta name="twitter:description" content="最近使用IntelliJ CE 2019.02版本倒入了一个scala项目。项目使用sbt构建，但是在使用SBT 构建项目的时候碰到了NoClassDefFoundError具体错误如下:java.lang.NoClassDefFoundError: sbt/ConsoleOut$ macbook最近没有更新过scala或者sbt，之前也是能够build好的。后来想想可能是build一些国外的项目">
+<meta name="twitter:description" content="最近使用IntelliJ CE 2019.02版本倒入了一个scala项目。项目使用sbt构建，但是在使用SBT 构建项目的时候碰到了NoClassDefFoundError具体错误如下:java.lang.NoClassDefFoundError: sbt/ConsoleOut$ macbook最近没有更新过scala或者sbt，之前也是能够build好的,可能是有半年多没碰过sbt项目了。后来">
   <!-- Canonical links -->
   <link rel="canonical" href="http://levin.tech/记录一次SBT-build-noclassdeffounderror问题/index.html">
   
@@ -305,7 +305,7 @@
     <div class="article-entry markdown-body" itemprop="articleBody">
       
         <p>最近使用IntelliJ CE 2019.02版本倒入了一个scala项目。<br>项目使用sbt构建，但是在使用SBT 构建项目的时候碰到了NoClassDefFoundError<br>具体错误如下:<br>java.lang.NoClassDefFoundError: sbt/ConsoleOut$</p>
-<p>macbook最近没有更新过scala或者sbt，之前也是能够build好的。<br>后来想想可能是build一些国外的项目中途网络导致一些缓存垃圾（不完整的库）。<br>最后尝试了以下操作解决了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rm -rf ~/.ivy/cache</span><br><span class="line">mv ~/.sbt ~/.sbt.old</span><br></pre></td></tr></table></figure></p>
+<p>macbook最近没有更新过scala或者sbt，之前也是能够build好的,可能是有半年多没碰过sbt项目了。<br>后来想想可能是build一些国外的项目中途网络导致一些缓存垃圾（不完整的库）。<br>最后尝试了以下操作解决了<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rm -rf ~/.ivy/cache</span><br><span class="line">mv ~/.sbt ~/.sbt.old</span><br></pre></td></tr></table></figure></p>
 <p>使用命令：sbt about<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[info] Loading global plugins from /Users/mac/.sbt/0.13/plugins</span><br><span class="line">[info] Set current project to src (in build file:/Users/mac/coding/react/re-implement/src/)</span><br><span class="line">[info] This is sbt 0.13.13</span><br><span class="line">[info] The current project is &#123;file:/Users/mac/coding/react/re-implement/src/&#125;src 0.1-SNAPSHOT</span><br><span class="line">[info] The current project is built against Scala 2.10.6</span><br><span class="line">[info] Available Plugins: sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.CorePlugin, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.Giter8TemplatePlugin</span><br><span class="line">[info] sbt, sbt plugins, and build definitions are using Scala 2.10.6</span><br></pre></td></tr></table></figure></p>
 
       
